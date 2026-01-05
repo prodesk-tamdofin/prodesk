@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
-import type { Metadata } from 'next';
 import '@/styles/globals.css';
 
 export const metadata: Metadata = {
-  title: 'Porba Bos',
+  title: 'Porte Bos',
   description: 'A playful one-page interaction.',
 };
 
