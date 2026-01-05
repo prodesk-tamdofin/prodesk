@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  assetPrefix: '/prodesk',
-  basePath: '/prodesk',
+  // Vercel uses the default server output; no base path or asset prefix required.
   images: {
     unoptimized: true,
   },
-  // Enable experimental features for better performance
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
